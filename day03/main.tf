@@ -12,7 +12,7 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = "<subscription_id>" # get your subscription id from azure portal
+  subscription_id = "<subscription_id>" # Use your subscription id from azure portal
 }
 
 resource "azurerm_resource_group" "example" {
