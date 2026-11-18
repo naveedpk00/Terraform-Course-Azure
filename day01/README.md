@@ -31,11 +31,11 @@ Now imagine you’re working at a company with 4 environments. Time taken: 8 hou
 Now multiply that by every change, every new project, and every team. That’s where manual provisioning stops scaling.
 <img width="1376" height="768" alt="Gemini_Generated_Image_t9hacyt9hacyt9ha" src="https://github.com/user-attachments/assets/341a2110-e19b-4d27-b952-df5ac01a95e7" />
 
--Now imagine deploying 100s of servers. Tricky? And that’s not even the real problem.
--Costs keep piling up because resources stay running. Tearing everything down every day isn’t practical.
--Environments that should be identical but aren’t: “But it works on my machine!”
--The fix: automate how you provision, manage, and destroy infrastructure.
--The payoff: reliability, efficiency, and security.
+- Now imagine deploying 100s of servers. Tricky? And that’s not even the real problem.
+- Costs keep piling up because resources stay running. Tearing everything down every day isn’t practical.
+- Environments that should be identical but aren’t: “But it works on my machine!”
+- The fix: automate how you provision, manage, and destroy infrastructure.
+- The payoff: reliability, efficiency, and security.
 <img width="1376" height="768" alt="Gemini_Generated_Image_err637err637err6" src="https://github.com/user-attachments/assets/56fdddf7-fe40-4aba-af09-fff78d8b1570" />
 
 ## Benefits of IaC:
