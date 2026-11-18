@@ -22,19 +22,20 @@ Problems with manual setup:
 <img width="1376" height="768" alt="Gemini_Generated_Image_z26t6zz26t6zz26t" src="https://github.com/user-attachments/assets/9152fceb-c8f6-451c-b936-422c0dd8da81" />
 
 
-Let's assume you have to provision the infra to deploy a three-tier application Time taken: 2 hours
+Say you need to provision the infrastructure for a three-tier application. Time taken: 2 hours. 
 <img width="1376" height="768" alt="Gemini_Generated_Image_t2y4slt2y4slt2y4" src="https://github.com/user-attachments/assets/c807cdab-3c6a-424b-98a1-ef3d71dae79f" />
 
-it's good for a personal project or when you are learning something
+That’s fine for a personal project or while you’re learning.
 
-What if you are working somewhere in a company and let's say you have 4 environments? Time taken: 8 hours no big deal? right
+Now imagine you’re working at a company with 4 environments. Time taken: 8 hours. No big deal, right?
+Now multiply that by every change, every new project, and every team. That’s where manual provisioning stops scaling.
 <img width="1376" height="768" alt="Gemini_Generated_Image_t9hacyt9hacyt9ha" src="https://github.com/user-attachments/assets/341a2110-e19b-4d27-b952-df5ac01a95e7" />
 
-How about 100s of servers to be deployed? Tricky? That's not it
-To save the cost , decommission every day(not possible) keep running and keep accumulating the cost
-Identical environment, works on my machine
-Automate the provisioning, manage and destroy the infra
-Reliability, efficiency, and security?
+-Now imagine deploying 100s of servers. Tricky? And that’s not even the real problem.
+-Costs keep piling up because resources stay running. Tearing everything down every day isn’t practical.
+-Environments that should be identical but aren’t: “But it works on my machine!”
+-The fix: automate how you provision, manage, and destroy infrastructure.
+-The payoff: reliability, efficiency, and security.
 <img width="1376" height="768" alt="Gemini_Generated_Image_err637err637err6" src="https://github.com/user-attachments/assets/56fdddf7-fe40-4aba-af09-fff78d8b1570" />
 
 ## Benefits of IaC:
