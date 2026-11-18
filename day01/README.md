@@ -2,7 +2,7 @@
 
 ## What is Infra as a Code
 
-Provisioning your infra through code
+Infrastructure as Code (IaC) is the practice of defining and managing infrastructure, such as servers, networks, databases, and storage accounts, through code files rather than manual steps in a cloud portal or ad hoc commands.
 
 
  <img width="1293" height="816" alt="Gemini_Generated_Image_d5pyj0d5pyj0d5py" src="https://github.com/user-attachments/assets/1991d5a9-d7f6-4a77-8dca-5f0e209f0b60" />
@@ -10,6 +10,14 @@ Provisioning your infra through code
 ## Why do we use Infra as a code?
 When you can do that from the Azure console, login to the portal and create, drag, and drop.
 Why take the pain of writing code for drag and drop?
+
+Problems with manual setup:
+
+- Clicking through a portal is slow, especially with many resources or environments.
+- Human error is common. A missed setting or wrong option can cause outages or security gaps.
+- Two environments that were meant to be identical often drift apart over time.
+- No record exists of what was changed, when, or by whom.
+- Rebuilding after a failure or disaster is difficult when the setup lives in someone’s memory.
 
 <img width="1376" height="768" alt="Gemini_Generated_Image_z26t6zz26t6zz26t" src="https://github.com/user-attachments/assets/9152fceb-c8f6-451c-b936-422c0dd8da81" />
 
