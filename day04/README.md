@@ -2,6 +2,7 @@
 
 ## 1. Overview
  Terraform keeps a record of every resource it manages in a state file (terraform.tfstate). This document explains what the state file is, why it matters, and how to store it safely in an Azure Blob Storage remote backend.
+ 
 Audience: engineers who know basic Terraform (init, plan, apply) and have access to an Azure subscription.
 
 ### Prerequisites
