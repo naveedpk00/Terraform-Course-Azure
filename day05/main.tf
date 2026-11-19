@@ -16,7 +16,7 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = "6b6b1770-c87e-43b4-9875-21c5c387e68a"
+  subscription_id =  "<subscription_id>" # Use your subscription id from azure portal
 }
 
 variable "environment" {
